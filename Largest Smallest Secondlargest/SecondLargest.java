@@ -34,7 +34,7 @@ public class SecondLargest {
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
         }
-        System.out.println( Integer.MIN_VALUE + "  Second Largest Element: " + findSecondLargest(array));
+        System.out.println("  Second Largest Element: " + findSecondLargest(array));
         sc.close();
     }
 }
