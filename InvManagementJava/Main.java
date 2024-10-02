@@ -22,6 +22,7 @@ public class Main {
                 case 1:
                     System.out.println("Enter Item id: ");
                     int id = sc.nextInt();
+                    sc.nextLine();
                     System.out.println("Enter Item name: ");
                     String name = sc.nextLine();
                     System.out.println("Enter Item quantity: ");
