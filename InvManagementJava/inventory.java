@@ -1,4 +1,4 @@
-package JavaMiniproject;
+package InvManagementJava;
 
 public class inventory {
  
