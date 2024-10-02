@@ -26,7 +26,7 @@ Welcome to the Inventory Management System
 4. View Inventory Report
 5. Exit
 
-# Adding an Item
+### Adding an Item
 You will be prompted to enter the item's ID, name, quantity, and price.
 
 Enter Item id: 1
@@ -35,20 +35,20 @@ Enter Item quantity: 50
 Enter Price of the Item: 0.99
 Item added successfully!
 
-# Updating an Item
+### Updating an Item
 You will be prompted to enter the item's ID and the new quantity.
 
 Enter item ID to update: 1
 Enter new quantity: 100
 Item updated successfully!
 
-# Removing an Item
+### Removing an Item
 You will be prompted to enter the item's ID to remove.
 
 Enter item ID to remove: 1
 Item removed successfully!
 
-# Viewing Inventory Report
+### Viewing Inventory Report
 You can view the entire inventory, including all items and their details.
 
 ID: 1, Name: Apple, Quantity: 50, Price: $0.99
