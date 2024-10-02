@@ -20,12 +20,16 @@ public class Item {
     public String getName() {
         return name;
     }
-
+    public void setQuantity(int quantity){
+       this.quantity = quantity;
+    }
     public int getQuantity() {
         return quantity;
     }
-
-    public double getPrice() {
+    public double getPrice(){
+        return price;
+    }
+    public double getTotalPrice() {
         return quantity * price;
     }
 }
