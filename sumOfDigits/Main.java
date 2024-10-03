@@ -1,4 +1,4 @@
-package sumOfaNumber;
+package sumOfDigits;
 
 import java.util.*;
 
