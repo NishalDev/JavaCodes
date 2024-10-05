@@ -18,9 +18,9 @@ public class PalindromeCheck {
     public static void main(String[] args) {
         String input = "madam";
         if (isPalindrome(input)) {
-            System.out.println(input + " is a palindrome");
+            System.out.println(input + " is a palindrome!");
         } else {
-            System.out.println(input + " is not a palindrome");
+            System.out.println(input + " is not a palindrome!");
         }
     }
 }
