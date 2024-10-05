@@ -22,5 +22,7 @@ public class Main {
         }
         System.out.println("Number of duplicates : " + count);
         sc.close();
+
     }
+
 }
