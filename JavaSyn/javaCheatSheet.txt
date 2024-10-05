@@ -1,0 +1,157 @@
+1. Basic Input/Output
+Reading Input:
+
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+int num = sc.nextInt();
+String str = sc.nextLine();
+
+Printing Output:
+System.out.println("Output");
+
+
+2. Loops
+For Loop:
+for (int i = 0; i < 10; i++) {
+    System.out.println(i);
+}
+
+
+While Loop:
+
+int i = 0;
+while (i < 10) {
+    System.out.println(i);
+    i++;
+}
+
+
+3. Conditionals
+
+If-Else Statements:
+if (a > b) {
+    System.out.println("a is greater");
+} else {
+    System.out.println("b is greater");
+}
+
+Switch Case:
+
+int day = 2;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    default:
+        System.out.println("Invalid day");
+}
+
+4. Arrays
+
+Declaration and Initialization:
+
+int[] arr = new int[5];
+int[] arr2 = {1, 2, 3, 4, 5};
+
+Accessing Elements:
+
+System.out.println(arr2[0]);
+Iterating Over an Array:
+
+for (int i = 0; i < arr.length; i++) {
+    System.out.println(arr[i]);
+}
+
+5. Strings
+
+String Declaration:
+
+String str = "Hello";
+
+Basic String Operations:
+
+Length of String: str.length();
+Substring: str.substring(0, 3);
+Character Access: str.charAt(0);
+String Comparison: str.equals("Hello");
+
+6. Functions/Methods
+
+Defining a Function:
+
+public static int add(int a, int b) {
+    return a + b;
+}
+
+Calling a Function:
+
+int result = add(5, 3);
+System.out.println(result);
+
+7. Collections
+
+ArrayList (Dynamic Arrays):
+
+import java.util.ArrayList;
+
+ArrayList<Integer> list = new ArrayList<>();
+list.add(1);
+list.add(2);
+System.out.println(list.get(0));  
+
+HashMap (Key-Value Pairs):
+
+import java.util.HashMap;
+
+HashMap<String, Integer> map = new HashMap<>();
+map.put("key", 100);
+System.out.println(map.get("key"));  
+
+8. Sorting
+
+Using Arrays Class:
+
+import java.util.Arrays;
+
+int[] arr = {5, 3, 8, 1};
+Arrays.sort(arr);
+
+9. Recursion
+
+Basic Recursive Function:
+
+public static int factorial(int n) {
+    if (n == 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+10. Basic Data Structures
+
+Stacks:
+
+import java.util.Stack;
+
+Stack<Integer> stack = new Stack<>();
+stack.push(1);
+stack.pop();
+
+Queues:
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+Queue<Integer> queue = new LinkedList<>();
+queue.add(1);
+queue.poll();
+
+
+Array manipulations (find max, sum, reverse).
+String operations (palindromes, anagrams).
+Basic sorting and searching (binary search).
+Using loops and conditionals efficiently for small data sets.
