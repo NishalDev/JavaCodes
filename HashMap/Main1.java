@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main1 {
     public static void main(String[] args) {
-        int[] nums = {3,4,4,4,2 };
+        int[] nums = { 3, 4, 4, 4, 2 };
         int res = majorityElement(nums);
         System.out.println(res);
     }
@@ -20,7 +20,6 @@ public class Main1 {
                 majority = hash.get(n);
             }
         }
-
         return res;
     }
 }
